@@ -6,6 +6,9 @@ from .models import (
 
 
 class UniverseForm(forms.ModelForm):
+    begin = forms.SplitDateTimeField(
+    )
+
     class Meta:
         model = Universe
         fields = [
