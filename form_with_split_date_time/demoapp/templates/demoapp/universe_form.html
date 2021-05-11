@@ -6,4 +6,21 @@
     {{ form }}
     <input type="submit">
   </form>
+  <dl>
+    <dt>form.initial</dt>
+    <dd>{{ form.initial }}</dd>
+
+    <dt>form.fields</dt>
+    <dd>{{ form.fields }}</dd>
+
+    <dt>form.fields.begin</dt>
+    <dd>{{ form.fields.begin }}</dd>
+
+    <dt>form.fields.begin.initial</dt>
+    <dd>{{ form.fields.begin.initial }}</dd>
+
+    <dt>form.fields.begin.widget</dt>
+    <dd>{{ form.fields.begin.widget }}</dd>
+
+  </dl>
 {% endblock %}
